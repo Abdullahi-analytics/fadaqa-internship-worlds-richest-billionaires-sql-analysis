@@ -1,5 +1,9 @@
 # World's Richest Billionaires – SQL Data Analysis
 
+### 1. Initial Dataset Exploration
+
+![Initial Dataset Exploration](Top_200_billionnaira_datas.png)
+
 ## Project Overview
 
 This project explores the world's 200 richest people using Microsoft SQL Server. The analysis examines billionaire wealth distribution, age demographics, geographical representation and industry classifications through structured SQL queries.
@@ -17,6 +21,7 @@ The analysis applies SQL querying, filtering, sorting, aggregate functions, grou
 - [Dataset Description](#dataset-description)
 - [Tools and Technologies](#tools-and-technologies)
 - [Data Exploration and Methodology](#data-exploration-and-methodology)
+- [SQL Analysis Screenshots](#sql-analysis-screenshots)
 - [Key Findings and Insights](#key-findings-and-insights)
 - [Geographical Analysis](#geographical-analysis)
 - [Industry Analysis](#industry-analysis)
@@ -213,43 +218,43 @@ The following screenshots provide visual evidence of the SQL queries executed an
 
 ### 1. Initial Dataset Exploration
 
-![Initial Dataset Exploration](screenshots/01-dataset-exploration.png)
+![Initial Dataset Exploration](Top_200_billionnaira_datas.png)
 
 Initial inspection of the billionaire dataset, including the available records and columns.
 
 ### 2. Billionaires from Nigeria and South Africa
 
-![Country Analysis](screenshots/02-country-analysis.png)
+![Country Analysis](Top_200_billionnaira_1.png)
 
 Filtering the dataset to identify billionaires associated with Nigeria and South Africa.
 
 ### 3. Five Oldest Billionaires
 
-![Oldest Billionaires](screenshots/03-oldest-billionaires.png)
+![Oldest Billionaires](Top_200_billionnaira_2.png)
 
 Using SQL sorting to identify the five oldest individuals in the dataset.
 
 ### 4. Billionaires with Above-Average Net Worth
 
-![Above Average Net Worth](screenshots/04-above-average-networth.png)
+![Above Average Net Worth](Top_200_billionnaira_3.png)
 
 Using a subquery and AVG() to identify billionaires whose net worth exceeds the dataset average.
 
 ### 5. Percentage of Billionaires Younger Than 50
 
-![Billionaires Younger Than 50](screenshots/05-under-50-analysis.png)
+![Billionaires Younger Than 50]Top_200_billionnaira_4.png)
 
 Calculating the percentage of individuals younger than 50 within the dataset.
 
 ### 6. Wealth Difference
 
-![Wealth Difference](screenshots/06-wealth-difference.png)
+![Wealth Difference](Top_200_billionnaira_5.png)
 
 Using MAX() and MIN() to calculate the difference between the highest and lowest net worth.
 
 ### 7. Industry Representation
 
-![Industry Analysis](screenshots/07-industry-analysis.png)
+![Industry Analysis](Top_200_billionnaira_6.png)
 
 Using GROUP BY, COUNT() and HAVING to identify industries represented by at least ten billionaires.
 
